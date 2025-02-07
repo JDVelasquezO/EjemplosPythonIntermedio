@@ -13,7 +13,7 @@ class HotDog:
     def getIngredents(self):
         return self.ingredents
 
-ingrs = ["Pan", "Salchicha", "Mayonesa", "Mostaza"]
+ingrs = ["Pan", "Salchicha", "Mayonesa", "Mostaza", "Lechuga"]
 ingrs2 = ["Pan", "Salchicha", "Mayonesa", "Mostaza"]
 if all(HotDog.verifyIngredents(i) for i in ingrs):
     hotdog = HotDog(ingrs)
